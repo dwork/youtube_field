@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the youtube_field feature.
+ */
+
+include_once 'youtube_field.features.inc';
