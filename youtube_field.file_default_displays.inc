@@ -12,6 +12,18 @@ function youtube_field_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'video__default__file_field_editable';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'click_to_edit' => 0,
+    'empty_text' => '',
+    'fallback_format' => 'addressfield_default',
+  );
+  $export['video__default__file_field_editable'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'video__default__media_youtube_image';
   $file_display->weight = 0;
   $file_display->status = TRUE;
