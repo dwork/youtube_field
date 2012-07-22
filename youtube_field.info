@@ -2,6 +2,7 @@ name = youtube_field
 description = Modules required for Youtube display
 core = 7.x
 package = Features
+php = 5.2.4
 version = 7.x-1.0
 project = youtube_field
 dependencies[] = emfield
